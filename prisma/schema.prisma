@@ -10,7 +10,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "DATABASE_URL"
+  url      = "postgresql://postgres:bAhYqQbgTvexMJumrtmBvIrNdmQxnkah@monorail.proxy.rlwy.net:58982/railway"
 }
 
 model User {
